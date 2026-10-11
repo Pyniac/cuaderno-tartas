@@ -1,0 +1,20 @@
+{
+  "nombre": "Cuaderno de Tartas",
+  "bloque": "tartas",
+  "descripcion": "Recetas de tartas dulces basadas en bibliografía real.",
+  "version": "1.0.0",
+  "autor": "Pyniac",
+  "repo": "https://github.com/Pyniac/cuaderno-tartas",
+  "url": "https://pyniac.github.io/cuaderno-tartas/",
+  "tema": {
+    "colorPrimario": "#6D4C41",
+    "colorSecundario": "#D7CCC8",
+    "colorAcento": "#E57373"
+  },
+  "categorias": [
+    { "id": "tartas-frutas", "nombre": "Tartas de Frutas" },
+    { "id": "tartas-chocolate", "nombre": "Tartas de Chocolate" },
+    { "id": "tartas-cremas", "nombre": "Tartas de Cremas" },
+    { "id": "tartas-clasicas", "nombre": "Tartas Clásicas" }
+  ]
+}

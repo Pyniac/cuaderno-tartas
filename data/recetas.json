@@ -1,0 +1,1433 @@
+[{
+  "id": "tarta-manzana-clasica-01",
+  "nombre": "Tarta de Manzana Clásica",
+  "bloque": "tartas",
+  "categoria": "tartas-frutas",
+  "tags": ["manzana", "frutal", "clasica", "masa quebrada", "horneado"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-01",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "relleno-manzana-01",
+      "nombre": "Relleno de Manzana",
+      "ingredientes": [
+        { "nombre": "manzanas verdes (Granny Smith)", "cantidad_g": 800, "rol": "fruta", "notas": "peladas y cortadas en láminas" },
+        { "nombre": "azúcar", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "manteca", "cantidad_g": 30, "rol": "grasa", "notas": "" },
+        { "nombre": "jugo de limón", "cantidad_g": 15, "rol": "acidulante", "notas": "" },
+        { "nombre": "canela en polvo", "cantidad_g": 3, "rol": "aromatizante", "notas": "" },
+        { "nombre": "nuez moscada", "cantidad_g": 1, "rol": "aromatizante", "notas": "" },
+        { "nombre": "almidón de maíz", "cantidad_g": 15, "rol": "espesante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Cocción de la manzana",
+          "duracion_min": 15,
+          "temperatura_c": 90,
+          "tecnica": "cocción en sartén",
+          "descripcion": "En una sartén amplia, derretir la manteca. Agregar las manzanas con el azúcar, el jugo de limón y las especias. Cocinar a fuego medio hasta que las manzanas estén tiernas y el líquido se haya reducido.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        },
+        {
+          "nombre": "Espesado",
+          "duracion_min": 2,
+          "temperatura_c": 90,
+          "tecnica": "mezcla",
+          "descripcion": "Espolvorear el almidón de maíz y mezclar bien. Cocinar 2 minutos más hasta que la mezcla espese ligeramente. Retirar y dejar enfriar.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-01",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten, lo que resultaría en una masa elástica en lugar de quebradiza. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique nuevamente y que la masa se relaje, facilitando el estirado posterior sin que se encoja.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Forrado del molde y reposo en frío",
+      "sub_receta_id": "masa-quebrada-dulce-01",
+      "descripcion": "Estirar la masa fría sobre una superficie enharinada, dándole un grosor uniforme de 3 mm. Enrollarla en el palote y desenrollarla sobre el molde desmontable de 24 cm, presionando suavemente para que se adapte a las paredes y al fondo. Cortar el excedente con un cuchillo. Pinchar toda la base con un tenedor para evitar que se formen burbujas de aire durante el horneado. Llevar el molde forrado al frío por 30 minutos más. Este segundo reposo es un punto crítico: asegura que la masa no se deforme ni se encoja al entrar al horno.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "3. Preparación del relleno de manzana",
+      "sub_receta_id": "relleno-manzana-01",
+      "descripcion": "Preparar la compota de manzana según la sub-receta. Es importante cocinar las manzanas hasta que estén tiernas pero no deshechas, y reducir el líquido para concentrar los sabores. El almidón de maíz se añade al final para espesar la mezcla y evitar que la tarta quede aguada. Dejar enfriar completamente antes de usar; si se usa caliente, ablandará la masa cruda.",
+      "ciencia_ref": "gelatinizacion_almidon"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Retirar el molde del frío. Verter el relleno de manzana frío sobre la masa quebrada, distribuyéndolo de manera uniforme y alisando la superficie con una espátula. Opcionalmente, para una presentación más elegante, decorar la superficie con láminas muy finas de manzana fresca (sin cocer) colocadas en círculos concéntricos superpuestos, comenzando desde el borde exterior hacia el centro. Si se desea, pincelar las láminas con un poco de manteca derretida y espolvorear con azúcar para favorecer el dorado.",
+      "ciencia_ref": null
+    },
+    {
+      "nombre": "5. Horneado",
+      "duracion_min": 45,
+      "temperatura_c": 180,
+      "tecnica": "horneado",
+      "descripcion": "Precalentar el horno a 180°C. Hornear la tarta en la rejilla central durante 40-45 minutos. Los primeros 20 minutos son clave para que la masa se cocine y selle. Si los bordes comienzan a dorarse demasiado rápido, cubrirlos con tiras de papel de aluminio. La tarta está lista cuando la masa está dorada y crujiente y las manzanas de la superficie (si se usaron) están tiernas y ligeramente caramelizadas. La cocción permite que la reacción de Maillard se desarrolle, aportando color y aroma.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "6. Enfriado y desmoldado",
+      "duracion_min": 60,
+      "temperatura_c": 22,
+      "tecnica": "reposo",
+      "descripcion": "Retirar la tarta del horno y dejarla enfriar completamente sobre una rejilla dentro del molde. Este paso es fundamental: el relleno de manzana necesita asentarse y la masa quebrada debe firmarse para evitar que se rompa al desmoldar. Pasada al menos 1 hora, pasar un cuchillo fino por el borde para despegar la masa y liberar el aro del molde desmontable. Servir a temperatura ambiente o tibia.",
+      "ciencia_ref": null
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada es una mezcla de harina, grasa y líquido. Al mezclar la grasa fría con la harina, se recubren las proteínas de la harina, impidiendo que se desarrolle gluten. Esto da una textura arenosa y quebradiza. Al hornear, la manteca se funde y crea vapor, separando las capas de masa y dando lugar a una textura crujiente.",
+      "punto_critico": "La temperatura de la manteca es crucial. Debe estar muy fría para no ser absorbida por la harina. El amasado debe ser mínimo para evitar el desarrollo de gluten.",
+      "error_tipico": "Amasar en exceso o usar manteca a temperatura ambiente. Esto desarrolla gluten y la masa queda dura y elástica en lugar de quebradiza.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    },
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "El almidón de maíz en el relleno absorbe el agua de las manzanas al calentarse, gelatinizándose y espesando la mezcla. Esto evita que la tarta quede aguada.",
+      "punto_critico": "La temperatura de gelatinización del almidón de maíz (62-72°C) y la correcta proporción de almidón con respecto al líquido de las manzanas.",
+      "error_tipico": "No cocinar lo suficiente el relleno después de añadir el almidón, lo que resulta en un relleno líquido y una masa cruda en el fondo.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "Durante el horneado, los azúcares de la manzana y de la masa reaccionan con las proteínas a altas temperaturas, creando compuestos que dan el color dorado y el aroma característico de la tarta.",
+      "punto_critico": "La temperatura debe superar los 140°C en la superficie para que la reacción de Maillard ocurra de manera óptima.",
+      "error_tipico": "Hornear a temperatura muy baja. La tarta se secará antes de dorarse. O hornear en exceso, lo que puede quemar la superficie y amargar el sabor.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Reacciones de oscurecimiento)."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en lugar fresco y seco"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 150,
+    "peso_total_g": 1200
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 102 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Proteínas y Lípidos", "pagina": 45 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 82 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-limon-clasica-01",
+  "nombre": "Tarta de Limón (Lemon Tart)",
+  "bloque": "tartas",
+  "categoria": "tartas-cremas",
+  "tags": ["limón", "cítrico", "crema", "merengue", "clasica", "masa quebrada"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-02",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "lemon-curd-01",
+      "nombre": "Lemon Curd (Crema de Limón)",
+      "ingredientes": [
+        { "nombre": "jugo de limón fresco", "cantidad_g": 150, "rol": "acidulante", "notas": "colado" },
+        { "nombre": "ralladura de limón", "cantidad_g": 5, "rol": "aromatizante", "notas": "solo parte amarilla" },
+        { "nombre": "azúcar", "cantidad_g": 180, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 150, "rol": "estructura", "notas": "3 unidades" },
+        { "nombre": "yemas de huevo", "cantidad_g": 80, "rol": "estructura", "notas": "4 unidades" },
+        { "nombre": "manteca", "cantidad_g": 120, "rol": "grasa", "notas": "fría, en cubos" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Mezcla base",
+          "duracion_min": 3,
+          "temperatura_c": 22,
+          "tecnica": "batido suave",
+          "descripcion": "En un bol, mezclar el jugo de limón, la ralladura, el azúcar, los huevos y las yemas. Batir suavemente con un batidor de varillas hasta integrar, sin incorporar aire.",
+          "ciencia_ref": "coagulacion_proteinas"
+        },
+        {
+          "nombre": "Cocción a baño María",
+          "duracion_min": 15,
+          "temperatura_c": 85,
+          "tecnica": "baño María",
+          "descripcion": "Cocinar la mezcla a baño María, revolviendo constantemente con un batidor, hasta que espese y alcance los 85°C. La crema debe cubrir la parte posterior de una cuchara. Es crucial no dejar de revolver para evitar que los huevos se coagulen.",
+          "ciencia_ref": "coagulacion_proteinas"
+        },
+        {
+          "nombre": "Incorporación de manteca",
+          "duracion_min": 3,
+          "temperatura_c": 60,
+          "tecnica": "emulsión",
+          "descripcion": "Retirar del baño María y, cuando la temperatura baje a unos 60°C, agregar la manteca fría en cubos, de a poco, emulsionando con un batidor. Esto aporta brillo y untuosidad a la crema.",
+          "ciencia_ref": "emulsion"
+        },
+        {
+          "nombre": "Enfriado",
+          "duracion_min": 120,
+          "temperatura_c": 4,
+          "tecnica": "reposo en frío",
+          "descripcion": "Cubrir la crema con film plástico a piel para evitar que se forme una costra y llevar a la heladera por al menos 2 horas hasta que esté bien fría y firme.",
+          "ciencia_ref": "cristalizacion"
+        }
+      ]
+    },
+    {
+      "id": "merengue-italiano-01",
+      "nombre": "Merengue Italiano",
+      "ingredientes": [
+        { "nombre": "claras de huevo", "cantidad_g": 120, "rol": "aireante", "notas": "a temperatura ambiente" },
+        { "nombre": "azúcar", "cantidad_g": 240, "rol": "endulzante", "notas": "" },
+        { "nombre": "agua", "cantidad_g": 80, "rol": "solvente", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Almíbar",
+          "duracion_min": 5,
+          "temperatura_c": 118,
+          "tecnica": "cocción",
+          "descripcion": "En una cacerola, calentar el azúcar con el agua sin revolver hasta alcanzar los 118°C (punto bolita blanda). Limpiar los bordes con un pincel húmedo para evitar cristalizaciones.",
+          "ciencia_ref": "caramelizacion"
+        },
+        {
+          "nombre": "Batido de claras",
+          "duracion_min": 2,
+          "temperatura_c": 22,
+          "tecnica": "batido",
+          "descripcion": "Mientras se hace el almíbar, batir las claras en la batidora a velocidad media hasta que formen picos suaves.",
+          "ciencia_ref": "aireado"
+        },
+        {
+          "nombre": "Incorporación del almíbar",
+          "duracion_min": 8,
+          "temperatura_c": 22,
+          "tecnica": "batido en caliente",
+          "descripcion": "Sin detener el batido, verter el almíbar caliente en forma de hilo sobre las claras, evitando que toque las paredes del bol. Continuar batiendo hasta que el merengue esté firme, brillante y a temperatura ambiente.",
+          "ciencia_ref": "aireado"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-02",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje, facilitando el estirado posterior.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Horneado en blanco de la masa",
+      "sub_receta_id": null,
+      "descripcion": "Precalentar el horno a 180°C. Forrar el molde con la masa estirada y pinchar la base. Cubrir la masa con papel de aluminio y rellenar con pesos (porotos secos o arroz). Hornear durante 15-20 minutos. Retirar los pesos y el papel y hornear 5-10 minutos más, hasta que la masa esté ligeramente dorada. Este proceso, llamado 'horneado en blanco', sella la masa y evita que se humedezca con el relleno. Dejar enfriar completamente.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "3. Preparación del lemon curd",
+      "sub_receta_id": "lemon-curd-01",
+      "descripcion": "Preparar el lemon curd según la sub-receta. Es fundamental cocinar a baño María y revolver constantemente para lograr una textura sedosa y evitar que los huevos se coagulen. La incorporación de la manteca al final es clave para aportar brillo y una textura más cremosa. Dejar enfriar por completo antes de usar.",
+      "ciencia_ref": "coagulacion_proteinas"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Una vez que la masa horneada y el lemon curd estén completamente fríos, verter el lemon curd sobre la base de masa, distribuyéndolo de manera uniforme y alisando la superficie con una espátula. Llevar la tarta al frío por al menos 1 hora para que el relleno se asiente y firme.",
+      "ciencia_ref": "cristalizacion"
+    },
+    {
+      "nombre": "5. Preparación del merengue italiano",
+      "sub_receta_id": "merengue-italiano-01",
+      "descripcion": "Preparar el merengue italiano siguiendo la sub-receta. El merengue debe quedar firme, brillante y a temperatura ambiente. Este tipo de merengue es seguro porque el almíbar a 118°C pasteuriza las claras. Colocar el merengue en una manga con boquilla rizada y decorar la superficie de la tarta, o bien extenderlo con una espátula y crear ondas con la parte posterior de una cuchara.",
+      "ciencia_ref": "aireado"
+    },
+    {
+      "nombre": "6. Dorado del merengue",
+      "sub_receta_id": null,
+      "descripcion": "Con un soplete de cocina, dorar la superficie del merengue de manera uniforme, manteniendo el soplete a unos 10 cm de distancia y en movimiento constante para evitar que se queme. El calor del soplete carameliza el azúcar del merengue, creando una costra dorada y un aroma característico. Servir de inmediato o reservar en frío hasta el momento de servir.",
+      "ciencia_ref": "caramelizacion"
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "coagulacion_proteinas",
+      "explicacion": "El lemon curd es una emulsión de huevos, jugo de limón, azúcar y manteca. Al calentar la mezcla, las proteínas del huevo se desnaturalizan y coagulan, espesando la crema. El ácido del limón ayuda a la coagulación y el azúcar protege a las proteínas de una coagulación excesiva. La manteca, añadida al final, se emulsiona en la mezcla, aportando brillo y suavidad.",
+      "punto_critico": "La temperatura de cocción es crucial. No debe superar los 85°C, ya que a mayor temperatura las proteínas se coagulan demasiado y la crema se corta, quedando grumosa. El batido constante es esencial para una textura suave.",
+      "error_tipico": "Cocinar a temperatura muy alta o no revolver lo suficiente. Esto provoca que los huevos se cocinen de más y la crema se corte, arruinando la textura.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas."
+    },
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El merengue italiano se forma al batir las claras de huevo, lo que incorpora aire en forma de burbujas. El almíbar caliente a 118°C no solo endulza, sino que también pasteuriza las claras y, al ser vertido en hilo, estabiliza la espuma. El calor del almíbar desnaturaliza las proteínas de la clara, que al enfriarse forman una red tridimensional que atrapa el aire, resultando en un merengue firme y estable.",
+      "punto_critico": "La temperatura del almíbar (118°C) y la velocidad de vertido. Si el almíbar está demasiado caliente, las claras se cocinarán; si está muy frío, no se pasteurizarán ni estabilizarán correctamente. Verter en hilo fino y constante mientras se bate es fundamental.",
+      "error_tipico": "Verter el almíbar demasiado rápido o sobre las paredes del bol, lo que puede cristalizar el azúcar o cocinar las claras de forma desigual. Batir a velocidad baja, lo que no incorpora suficiente aire.",
+      "referencia": "Gross, O. (2013). El ABC de la Pastelería. Planeta. Cap. Merengues."
+    },
+    {
+      "fenomeno": "caramelizacion",
+      "explicacion": "Al dorar el merengue con el soplete, el calor intenso carameliza los azúcares presentes en el merengue, creando una capa crujiente y dorada con un sabor y aroma característicos. Es una forma rápida de caramelización superficial.",
+      "punto_critico": "La distancia y el movimiento del soplete. Si se acerca demasiado o se mantiene en un solo punto, el merengue se quemará y amargará.",
+      "error_tipico": "Quemar el merengue en lugar de dorarlo. Esto arruina el sabor de la tarta.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Caramelización)."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado en blanco sella la masa, creando una barrera que evita que la humedad del lemon curd la ablande.",
+      "punto_critico": "El horneado en blanco debe ser completo. Si la masa no está bien cocida y sellada, el relleno la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear en blanco la masa o hacerlo por un tiempo insuficiente. La masa quedará cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa",
+    "Pasteurización de las claras en el merengue italiano (almíbar a 118°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en frío (4°C) por ser una tarta con crema y merengue",
+    "Consumir preferentemente dentro de las 48 horas"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 160,
+    "peso_total_g": 1280
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 108 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Proteínas", "pagina": 52 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 85 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-chocolate-ganache-01",
+  "nombre": "Tarta de Chocolate (Ganache)",
+  "bloque": "tartas",
+  "categoria": "tartas-chocolate",
+  "tags": ["chocolate", "ganache", "crema", "clasica", "masa quebrada", "horneado"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-cacao-01",
+      "nombre": "Masa Quebrada de Cacao",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 220, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "cacao en polvo", "cantidad_g": 30, "rol": "sabor y color", "notas": "amargo, tamizado" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el cacao en polvo, el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "ganache-tarta-01",
+      "nombre": "Ganache para Tarta",
+      "ingredientes": [
+        { "nombre": "crema de leche (35% M.G.)", "cantidad_g": 300, "rol": "agua", "notas": "" },
+        { "nombre": "cobertura de chocolate semiamargo (70% cacao)", "cantidad_g": 300, "rol": "grasa", "notas": "picada" },
+        { "nombre": "manteca", "cantidad_g": 40, "rol": "grasa", "notas": "a temperatura ambiente" },
+        { "nombre": "miel", "cantidad_g": 20, "rol": "endulzante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Calentamiento de la crema",
+          "duracion_min": 3,
+          "temperatura_c": 90,
+          "tecnica": "infusión",
+          "descripcion": "Calentar la crema de leche con la miel en una cacerola hasta que comience a hervir. Retirar del fuego.",
+          "ciencia_ref": "emulsion"
+        },
+        {
+          "nombre": "Emulsión",
+          "duracion_min": 5,
+          "temperatura_c": 45,
+          "tecnica": "vertido a intervalos",
+          "descripcion": "Verter la crema caliente sobre el chocolate picado en tres veces, revolviendo con batidor desde el centro hacia afuera. Es crucial formar un núcleo elástico y brillante antes de añadir más líquido. No batir en exceso para no incorporar aire.",
+          "ciencia_ref": "emulsion"
+        },
+        {
+          "nombre": "Incorporación de manteca",
+          "duracion_min": 2,
+          "temperatura_c": 40,
+          "tecnica": "mezcla",
+          "descripcion": "Cuando la mezcla esté a 40°C, incorporar la manteca a temperatura ambiente y batir hasta integrar. La manteca aporta brillo y una textura más suave.",
+          "ciencia_ref": "emulsion"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada de cacao",
+      "sub_receta_id": "masa-quebrada-cacao-01",
+      "descripcion": "Elaborar la masa quebrada de cacao siguiendo la sub-receta. El cacao en polvo aporta color y sabor, pero también puede resecar la masa, por eso es importante no amasar en exceso y trabajar con la manteca bien fría. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Horneado en blanco de la masa",
+      "sub_receta_id": null,
+      "descripcion": "Precalentar el horno a 180°C. Forrar el molde con la masa estirada y pinchar la base. Cubrir la masa con papel de aluminio y rellenar con pesos (porotos secos o arroz). Hornear durante 15-20 minutos. Retirar los pesos y el papel y hornear 5-10 minutos más, hasta que la masa esté ligeramente dorada y firme. Este proceso, llamado 'horneado en blanco', sella la masa y evita que se humedezca con el relleno. Dejar enfriar completamente antes de rellenar.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "3. Preparación de la ganache",
+      "sub_receta_id": "ganache-tarta-01",
+      "descripcion": "Preparar la ganache según la sub-receta. El punto crítico es la emulsión: verter la crema caliente sobre el chocolate picado en intervalos, formando un núcleo elástico y brillante antes de añadir más líquido. La incorporación de la manteca al final aporta brillo y suavidad. La ganache debe quedar lisa y sin grumos.",
+      "ciencia_ref": "emulsion"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Verter la ganache aún tibia (a unos 35-40°C) sobre la base de masa quebrada horneada y fría. Alisar la superficie con una espátula. Dar unos golpecitos al molde sobre la mesada para eliminar posibles burbujas de aire. Dejar enfriar a temperatura ambiente y luego llevar a la heladera por al menos 4 horas, hasta que la ganache esté completamente firme.",
+      "ciencia_ref": "cristalizacion"
+    },
+    {
+      "nombre": "5. Decoración y desmoldado",
+      "sub_receta_id": null,
+      "descripcion": "Una vez que la ganache esté firme, desmoldar la tarta con cuidado. Se puede decorar con un poco de cacao en polvo tamizado por encima, con virutas de chocolate, o con una fina capa de brillo neutro para darle un acabado profesional. Servir a temperatura ambiente para apreciar plenamente el sabor y la textura de la ganache.",
+      "ciencia_ref": null
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La ganache es una emulsión de agua (de la crema de leche) en grasa (manteca de cacao del chocolate). Al verter la crema caliente sobre el chocolate, la manteca de cacao se funde y, con la ayuda del batido, se emulsiona con el agua de la crema. La miel actúa como estabilizante y la manteca añadida al final aporta brillo y suavidad.",
+      "punto_critico": "La temperatura de la crema (debe estar caliente pero no hirviendo) y la técnica de vertido. Verter de a golpe puede cortar la emulsión. Se debe verter en intervalos, formando un núcleo elástico y brillante antes de añadir más líquido.",
+      "error_tipico": "Verter toda la crema de una vez o batir en exceso. Esto puede provocar que la emulsión se corte, resultando en una ganache grumosa o separada.",
+      "referencia": "Morató, R. (2014). Chocolate. Vilbo. Cap. Emulsiones."
+    },
+    {
+      "fenomeno": "cristalizacion",
+      "explicacion": "Al enfriarse, la manteca de cacao de la ganache cristaliza, dando a la tarta su textura firme y cremosa. La velocidad de enfriamiento afecta el tipo de cristales que se forman. Un enfriamiento lento en heladera favorece la formación de cristales estables (forma beta), que son los responsables de la textura deseada y del brillo.",
+      "punto_critico": "La temperatura de enfriamiento. Si la ganache se enfría demasiado rápido, pueden formarse cristales inestables que dan una textura granulosa. Lo ideal es enfriar a temperatura ambiente y luego en heladera.",
+      "error_tipico": "Refrigerar la tarta antes de que la ganache se haya estabilizado a temperatura ambiente, lo que puede provocar condensación y una superficie pegajosa.",
+      "referencia": "Morató, R. (2014). Chocolate. Vilbo. Cap. Cristalización."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada de cacao se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado en blanco sella la masa, creando una barrera que evita que la humedad de la ganache la ablande.",
+      "punto_critico": "El horneado en blanco debe ser completo. Si la masa no está bien cocida y sellada, la ganache la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear en blanco la masa o hacerlo por un tiempo insuficiente. La masa quedará cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en frío (4°C) por ser una tarta con ganache",
+    "Consumir preferentemente dentro de los 5 días"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 130,
+    "peso_total_g": 1040
+  },
+  "referencias": [
+    { "libro": "Morató, R. (2014). Chocolate. Vilbo.", "capitulo": "Tartas de chocolate", "pagina": 72 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Lípidos", "pagina": 60 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Lípidos", "pagina": 245 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-frutillas-crema-01",
+  "nombre": "Tarta de Frutillas con Crema",
+  "bloque": "tartas",
+  "categoria": "tartas-frutas",
+  "tags": ["frutillas", "crema", "frutal", "clasica", "masa quebrada", "fresca"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-03",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "crema-pastelera-01",
+      "nombre": "Crema Pastelera",
+      "ingredientes": [
+        { "nombre": "leche entera", "cantidad_g": 400, "rol": "agua", "notas": "" },
+        { "nombre": "yemas de huevo", "cantidad_g": 80, "rol": "estructura", "notas": "4 unidades" },
+        { "nombre": "azúcar", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "almidón de maíz", "cantidad_g": 35, "rol": "espesante", "notas": "" },
+        { "nombre": "harina 0000", "cantidad_g": 15, "rol": "espesante", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aromatizante", "notas": "" },
+        { "nombre": "manteca", "cantidad_g": 30, "rol": "grasa", "notas": "a temperatura ambiente" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Infusión de la leche",
+          "duracion_min": 5,
+          "temperatura_c": 90,
+          "tecnica": "infusión",
+          "descripcion": "Calentar la leche con la vainilla en una cacerola hasta que comience a humear. No dejar que hierva.",
+          "ciencia_ref": "coagulacion_proteinas"
+        },
+        {
+          "nombre": "Mezcla de yemas",
+          "duracion_min": 3,
+          "temperatura_c": 22,
+          "tecnica": "batido",
+          "descripcion": "En un bol, batir las yemas con el azúcar hasta blanquear. Agregar el almidón de maíz y la harina tamizada, mezclando bien.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        },
+        {
+          "nombre": "Cocción de la crema",
+          "duracion_min": 10,
+          "temperatura_c": 85,
+          "tecnica": "cocción",
+          "descripcion": "Verter la leche caliente sobre la mezcla de yemas en forma de hilo, batiendo constantemente. Devolver la mezcla a la cacerola y cocinar a fuego medio, revolviendo con batidor, hasta que espese y alcance los 85°C. Es crucial no dejar de revolver para evitar que se formen grumos.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        },
+        {
+          "nombre": "Incorporación de manteca",
+          "duracion_min": 2,
+          "temperatura_c": 60,
+          "tecnica": "mezcla",
+          "descripcion": "Retirar del fuego y, cuando la temperatura baje a unos 60°C, agregar la manteca y mezclar hasta integrar. Esto aporta brillo y suavidad a la crema.",
+          "ciencia_ref": "emulsion"
+        },
+        {
+          "nombre": "Enfriado",
+          "duracion_min": 120,
+          "temperatura_c": 4,
+          "tecnica": "reposo en frío",
+          "descripcion": "Cubrir la crema con film plástico a piel para evitar que se forme una costra y llevar a la heladera por al menos 2 horas hasta que esté bien fría.",
+          "ciencia_ref": "cristalizacion"
+        }
+      ]
+    },
+    {
+      "id": "cobertura-frutillas-01",
+      "nombre": "Cobertura de Frutillas",
+      "ingredientes": [
+        { "nombre": "frutillas frescas", "cantidad_g": 500, "rol": "fruta", "notas": "lavadas, sin cabos, cortadas en mitades" },
+        { "nombre": "gelatina neutra", "cantidad_g": 20, "rol": "gelificante", "notas": "o mermelada de frutilla diluida" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 10, "rol": "endulzante", "notas": "opcional" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Preparación de la gelatina",
+          "duracion_min": 5,
+          "temperatura_c": 40,
+          "tecnica": "disolución",
+          "descripcion": "Preparar la gelatina neutra según las instrucciones del fabricante, o diluir la mermelada de frutilla con un poco de agua caliente hasta obtener una consistencia líquida pero espesa.",
+          "ciencia_ref": "gelificacion"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-03",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten, lo que resultaría en una masa elástica en lugar de quebradiza. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Horneado en blanco de la masa",
+      "sub_receta_id": null,
+      "descripcion": "Precalentar el horno a 180°C. Forrar el molde con la masa estirada y pinchar la base. Cubrir la masa con papel de aluminio y rellenar con pesos (porotos secos o arroz). Hornear durante 15-20 minutos. Retirar los pesos y el papel y hornear 5-10 minutos más, hasta que la masa esté ligeramente dorada. Este proceso, llamado 'horneado en blanco', sella la masa y evita que se humedezca con el relleno. Dejar enfriar completamente.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "3. Preparación de la crema pastelera",
+      "sub_receta_id": "crema-pastelera-01",
+      "descripcion": "Preparar la crema pastelera según la sub-receta. Es fundamental cocinar a fuego medio y revolver constantemente para lograr una textura sedosa y evitar que se formen grumos. La incorporación de la manteca al final es clave para aportar brillo y una textura más cremosa. Dejar enfriar por completo antes de usar.",
+      "ciencia_ref": "gelatinizacion_almidon"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Una vez que la masa horneada y la crema pastelera estén completamente frías, verter la crema pastelera sobre la base de masa, distribuyéndola de manera uniforme y alisando la superficie con una espátula. Llevar la tarta al frío por al menos 1 hora para que la crema se asiente y firme.",
+      "ciencia_ref": "cristalizacion"
+    },
+    {
+      "nombre": "5. Decoración con frutillas",
+      "sub_receta_id": "cobertura-frutillas-01",
+      "descripcion": "Lavar y secar bien las frutillas. Cortarlas en mitades y colocarlas sobre la crema pastelera, presionando ligeramente para que se asienten. Se pueden disponer en círculos concéntricos o de manera aleatoria. Con un pincel, aplicar la gelatina neutra o la mermelada diluida sobre las frutillas para darles brillo y protegerlas de la oxidación.",
+      "ciencia_ref": "gelificacion"
+    },
+    {
+      "nombre": "6. Refrigerado y servicio",
+      "duracion_min": 60,
+      "temperatura_c": 4,
+      "tecnica": "reposo en frío",
+      "descripcion": "Llevar la tarta a la heladera por al menos 1 hora antes de servir para que todos los sabores se integren y la crema esté bien firme. Desmoldar con cuidado y servir fría. Esta tarta es mejor consumirla el mismo día de su preparación, ya que las frutillas tienden a liberar agua y pueden ablandar la masa.",
+      "ciencia_ref": "cristalizacion"
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "La crema pastelera espesa gracias a la gelatinización del almidón de maíz y la harina. Al calentar la mezcla, los gránulos de almidón absorben el líquido, se hinchan y se rompen, liberando amilosa y amilopectina que forman una red tridimensional que atrapa el agua, espesando la crema. Las yemas aportan proteínas que también contribuyen a la estructura y cremosidad.",
+      "punto_critico": "La temperatura de cocción (85°C) y el batido constante. Si no se cocina lo suficiente, la crema queda líquida y sabe a almidón crudo. Si se cocina de más o no se revuelve, los grumos aparecen.",
+      "error_tipico": "No cocinar la crema lo suficiente o no revolver constantemente. Esto resulta en una crema grumosa o líquida.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Gelatinización del almidón)."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado en blanco sella la masa, creando una barrera que evita que la humedad de la crema pastelera la ablande.",
+      "punto_critico": "El horneado en blanco debe ser completo. Si la masa no está bien cocida y sellada, la crema la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear en blanco la masa o hacerlo por un tiempo insuficiente. La masa quedará cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    },
+    {
+      "fenomeno": "gelificacion",
+      "explicacion": "La gelatina neutra o la mermelada diluida forman una fina capa de gel sobre las frutillas. Al enfriarse, la gelatina (una proteína) o la pectina (un polisacárido) forman una red tridimensional que atrapa el agua, creando una barrera brillante que protege a las frutillas de la deshidratación y les da un aspecto atractivo.",
+      "punto_critico": "La concentración del gelificante y la temperatura de aplicación. Si está muy caliente, puede cocinar las frutillas; si está muy frío, no se extiende bien.",
+      "error_tipico": "Aplicar una capa demasiado gruesa de gelatina, que puede resultar gomosa, o no aplicarla, lo que deja las frutillas opacas y propensas a secarse.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Pectinas y gomas)."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa y la crema",
+    "Lavado y desinfección de las frutillas antes de usar"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en frío (4°C) por ser una tarta con crema y frutas frescas",
+    "Consumir preferentemente dentro de las 24-48 horas"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 140,
+    "peso_total_g": 1120
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 115 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Proteínas y Lípidos", "pagina": 52 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 90 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-nuez-pecan-01",
+  "nombre": "Tarta de Nuez (Pecan Pie)",
+  "bloque": "tartas",
+  "categoria": "tartas-clasicas",
+  "tags": ["nuez", "pecan", "caramelo", "clasica", "estadounidense", "masa quebrada", "horneado"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-04",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "relleno-pecan-01",
+      "nombre": "Relleno de Pecan Pie",
+      "ingredientes": [
+        { "nombre": "nueces pecán", "cantidad_g": 250, "rol": "fruta seca", "notas": "mitades o trozos grandes" },
+        { "nombre": "jarabe de maíz claro", "cantidad_g": 200, "rol": "endulzante", "notas": "" },
+        { "nombre": "azúcar mascabo", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 150, "rol": "estructura", "notas": "3 unidades" },
+        { "nombre": "manteca derretida", "cantidad_g": 60, "rol": "grasa", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aromatizante", "notas": "" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "canela en polvo", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Mezcla base",
+          "duracion_min": 5,
+          "temperatura_c": 22,
+          "tecnica": "batido suave",
+          "descripcion": "En un bol, batir ligeramente los huevos con el azúcar mascabo, el jarabe de maíz, la manteca derretida, la vainilla, la sal y la canela. Batir solo hasta integrar, sin incorporar aire en exceso.",
+          "ciencia_ref": "coagulacion_proteinas"
+        },
+        {
+          "nombre": "Incorporación de las nueces",
+          "duracion_min": 2,
+          "temperatura_c": 22,
+          "tecnica": "mezcla",
+          "descripcion": "Agregar las nueces pecán a la mezcla y remover suavemente para que queden bien distribuidas.",
+          "ciencia_ref": null
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-04",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten, lo que resultaría en una masa elástica en lugar de quebradiza. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Forrado del molde y reposo en frío",
+      "sub_receta_id": "masa-quebrada-dulce-04",
+      "descripcion": "Estirar la masa fría sobre una superficie enharinada, dándole un grosor uniforme de 3 mm. Enrollarla en el palote y desenrollarla sobre el molde desmontable de 24 cm, presionando suavemente para que se adapte a las paredes y al fondo. Cortar el excedente con un cuchillo. Pinchar toda la base con un tenedor para evitar que se formen burbujas de aire durante el horneado. Llevar el molde forrado al frío por 30 minutos más. Este segundo reposo es un punto crítico: asegura que la masa no se deforme ni se encoja al entrar al horno.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "3. Preparación del relleno",
+      "sub_receta_id": "relleno-pecan-01",
+      "descripcion": "Preparar el relleno de pecan pie según la sub-receta. Es importante batir los huevos solo hasta integrar, sin incorporar aire en exceso, para evitar que el relleno se vuelva esponjoso. Las nueces pecán se añaden al final y se distribuyen de manera uniforme. El relleno debe quedar líquido y brillante.",
+      "ciencia_ref": "coagulacion_proteinas"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Verter el relleno de pecan pie sobre la masa quebrada fría. Las nueces tenderán a flotar y quedarán en la superficie. Con una espátula, distribuir las nueces de manera uniforme. Si se desea, se pueden colocar algunas mitades de nuez adicionales sobre la superficie para una presentación más atractiva.",
+      "ciencia_ref": null
+    },
+    {
+      "nombre": "5. Horneado",
+      "duracion_min": 50,
+      "temperatura_c": 180,
+      "tecnica": "horneado",
+      "descripcion": "Precalentar el horno a 180°C. Hornear la tarta en la rejilla central durante 45-50 minutos. Los primeros 20 minutos son clave para que la masa se cocine y selle. Si los bordes comienzan a dorarse demasiado rápido, cubrirlos con tiras de papel de aluminio. La tarta está lista cuando la masa está dorada y el relleno está cuajado pero aún ligeramente tembloroso en el centro. El relleno se solidificará completamente al enfriarse.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "6. Enfriado y desmoldado",
+      "duracion_min": 120,
+      "temperatura_c": 22,
+      "tecnica": "reposo",
+      "descripcion": "Retirar la tarta del horno y dejarla enfriar completamente sobre una rejilla dentro del molde. Este paso es fundamental: el relleno de pecan pie necesita asentarse y la masa quebrada debe firmarse para evitar que se rompa al desmoldar. Pasadas al menos 2 horas, pasar un cuchillo fino por el borde para despegar la masa y liberar el aro del molde desmontable. Servir a temperatura ambiente, acompañada de crema batida o helado de vainilla.",
+      "ciencia_ref": null
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "coagulacion_proteinas",
+      "explicacion": "El relleno de pecan pie es una mezcla de huevos, jarabe de maíz, azúcar y manteca. Al hornear, las proteínas del huevo se desnaturalizan y coagulan, espesando el relleno. El azúcar y el jarabe de maíz actúan como agentes de masa y contribuyen a la textura pegajosa y caramelizada. La manteca derretida aporta untuosidad y ayuda a estabilizar la mezcla.",
+      "punto_critico": "La temperatura de horneado y el punto de cuajado. El relleno debe estar cuajado pero aún ligeramente tembloroso en el centro; si se hornea demasiado, el relleno se vuelve duro y seco. Si se hornea poco, el relleno queda líquido.",
+      "error_tipico": "Hornear en exceso el relleno, lo que resulta en una textura dura y seca en lugar de pegajosa y caramelizada.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas."
+    },
+    {
+      "fenomeno": "caramelizacion",
+      "explicacion": "Durante el horneado, el azúcar y el jarabe de maíz se caramelizan, creando el color dorado oscuro y el sabor característico de la tarta. La caramelización es una reacción de oscurecimiento no enzimático que ocurre cuando los azúcares se calientan por encima de su punto de fusión.",
+      "punto_critico": "La temperatura de horneado (180°C) y el tiempo. Si la temperatura es muy alta, el azúcar se quema y amarga. Si es muy baja, no se carameliza y la tarta queda pálida.",
+      "error_tipico": "No hornear lo suficiente para que se desarrolle la caramelización, lo que resulta en una tarta de color pálido y sabor plano.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Caramelización)."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado sella la masa, creando una barrera que evita que la humedad del relleno la ablande.",
+      "punto_critico": "El horneado debe ser completo. Si la masa no está bien cocida y sellada, el relleno la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear la masa lo suficiente antes de añadir el relleno, lo que resulta en una masa cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos, frutos secos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en lugar fresco y seco",
+    "Consumir preferentemente dentro de los 5 días"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 140,
+    "peso_total_g": 1120
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 120 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Proteínas", "pagina": 55 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 88 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-calabaza-pumpkin-01",
+  "nombre": "Tarta de Calabaza (Pumpkin Pie)",
+  "bloque": "tartas",
+  "categoria": "tartas-cremas",
+  "tags": ["calabaza", "pumpkin", "especiada", "clasica", "estadounidense", "masa quebrada", "horneado"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-05",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "relleno-calabaza-01",
+      "nombre": "Relleno de Calabaza",
+      "ingredientes": [
+        { "nombre": "puré de calabaza", "cantidad_g": 400, "rol": "fruta", "notas": "calabaza asada y procesada" },
+        { "nombre": "leche evaporada", "cantidad_g": 200, "rol": "agua", "notas": "" },
+        { "nombre": "azúcar mascabo", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 150, "rol": "estructura", "notas": "3 unidades" },
+        { "nombre": "manteca derretida", "cantidad_g": 40, "rol": "grasa", "notas": "" },
+        { "nombre": "canela en polvo", "cantidad_g": 3, "rol": "aromatizante", "notas": "" },
+        { "nombre": "jengibre en polvo", "cantidad_g": 2, "rol": "aromatizante", "notas": "" },
+        { "nombre": "nuez moscada", "cantidad_g": 1, "rol": "aromatizante", "notas": "" },
+        { "nombre": "clavo de olor molido", "cantidad_g": 0.5, "rol": "aromatizante", "notas": "" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Mezcla base",
+          "duracion_min": 5,
+          "temperatura_c": 22,
+          "tecnica": "batido suave",
+          "descripcion": "En un bol, batir ligeramente los huevos con el azúcar mascabo, la leche evaporada, la manteca derretida, la sal y todas las especias. Batir solo hasta integrar, sin incorporar aire en exceso.",
+          "ciencia_ref": "coagulacion_proteinas"
+        },
+        {
+          "nombre": "Incorporación del puré",
+          "duracion_min": 3,
+          "temperatura_c": 22,
+          "tecnica": "mezcla",
+          "descripcion": "Agregar el puré de calabaza a la mezcla y remover suavemente hasta que quede una crema homogénea y brillante.",
+          "ciencia_ref": "gelificacion"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-05",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten, lo que resultaría en una masa elástica en lugar de quebradiza. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Forrado del molde y reposo en frío",
+      "sub_receta_id": "masa-quebrada-dulce-05",
+      "descripcion": "Estirar la masa fría sobre una superficie enharinada, dándole un grosor uniforme de 3 mm. Enrollarla en el palote y desenrollarla sobre el molde desmontable de 24 cm, presionando suavemente para que se adapte a las paredes y al fondo. Cortar el excedente con un cuchillo. Pinchar toda la base con un tenedor para evitar que se formen burbujas de aire durante el horneado. Llevar el molde forrado al frío por 30 minutos más. Este segundo reposo es un punto crítico: asegura que la masa no se deforme ni se encoja al entrar al horno.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "3. Preparación del relleno de calabaza",
+      "sub_receta_id": "relleno-calabaza-01",
+      "descripcion": "Preparar el relleno de calabaza según la sub-receta. Es importante batir los huevos solo hasta integrar, sin incorporar aire en exceso, para evitar que el relleno se vuelva esponjoso. El puré de calabaza debe estar bien procesado para lograr una textura cremosa y sin grumos. La mezcla debe quedar homogénea y brillante.",
+      "ciencia_ref": "coagulacion_proteinas"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Verter el relleno de calabaza sobre la masa quebrada fría. Alisar la superficie con una espátula. Dar unos golpecitos al molde sobre la mesada para eliminar posibles burbujas de aire.",
+      "ciencia_ref": null
+    },
+    {
+      "nombre": "5. Horneado",
+      "duracion_min": 50,
+      "temperatura_c": 180,
+      "tecnica": "horneado",
+      "descripcion": "Precalentar el horno a 180°C. Hornear la tarta en la rejilla central durante 45-50 minutos. Los primeros 20 minutos son clave para que la masa se cocine y selle. Si los bordes comienzan a dorarse demasiado rápido, cubrirlos con tiras de papel de aluminio. La tarta está lista cuando la masa está dorada y el relleno está cuajado pero aún ligeramente tembloroso en el centro. El relleno se solidificará completamente al enfriarse.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "6. Enfriado y desmoldado",
+      "duracion_min": 120,
+      "temperatura_c": 22,
+      "tecnica": "reposo",
+      "descripcion": "Retirar la tarta del horno y dejarla enfriar completamente sobre una rejilla dentro del molde. Este paso es fundamental: el relleno de calabaza necesita asentarse y la masa quebrada debe firmarse para evitar que se rompa al desmoldar. Pasadas al menos 2 horas, pasar un cuchillo fino por el borde para despegar la masa y liberar el aro del molde desmontable. Servir a temperatura ambiente, acompañada de crema batida o helado de vainilla.",
+      "ciencia_ref": null
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "coagulacion_proteinas",
+      "explicacion": "El relleno de pumpkin pie es una mezcla de huevos, puré de calabaza, leche evaporada, azúcar y especias. Al hornear, las proteínas del huevo se desnaturalizan y coagulan, espesando el relleno. La leche evaporada aporta lactosa y proteínas que contribuyen a la textura cremosa. El azúcar actúa como agente de masa y ayuda a mantener la humedad.",
+      "punto_critico": "La temperatura de horneado y el punto de cuajado. El relleno debe estar cuajado pero aún ligeramente tembloroso en el centro; si se hornea demasiado, el relleno se vuelve duro y seco. Si se hornea poco, el relleno queda líquido.",
+      "error_tipico": "Hornear en exceso el relleno, lo que resulta en una textura dura y seca en lugar de cremosa.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas."
+    },
+    {
+      "fenomeno": "gelificacion",
+      "explicacion": "El puré de calabaza contiene pectinas y almidones naturales que, al calentarse, absorben agua y contribuyen a la textura cremosa y firme del relleno. La leche evaporada y los huevos también aportan proteínas que ayudan a la gelificación.",
+      "punto_critico": "La proporción de puré de calabaza con respecto a los líquidos y los huevos. Si hay demasiado líquido, el relleno no cuajará correctamente.",
+      "error_tipico": "Usar puré de calabaza demasiado aguado o no escurrirlo bien, lo que resulta en un relleno líquido y una masa cruda.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Pectinas)."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "Durante el horneado, los azúcares del puré de calabaza y del azúcar mascabo reaccionan con las proteínas de los huevos y la leche, creando compuestos que dan el color dorado y el aroma característico de la tarta.",
+      "punto_critico": "La temperatura debe superar los 140°C en la superficie para que la reacción de Maillard ocurra de manera óptima.",
+      "error_tipico": "Hornear a temperatura muy baja. La tarta se secará antes de dorarse. O hornear en exceso, lo que puede quemar la superficie y amargar el sabor.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Reacciones de oscurecimiento)."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado sella la masa, creando una barrera que evita que la humedad del relleno la ablande.",
+      "punto_critico": "El horneado debe ser completo. Si la masa no está bien cocida y sellada, el relleno la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear la masa lo suficiente antes de añadir el relleno, lo que resulta en una masa cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en frío (4°C) por ser una tarta con relleno de crema",
+    "Consumir preferentemente dentro de los 5 días"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 140,
+    "peso_total_g": 1120
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 125 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Proteínas", "pagina": 55 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 88 }
+  ],
+  "activa": true
+},
+{
+  "id": "tarta-coco-01",
+  "nombre": "Tarta de Coco",
+  "bloque": "tartas",
+  "categoria": "tartas-cremas",
+  "tags": ["coco", "crema", "tropical", "clasica", "masa quebrada", "horneado"],
+  "porciones": 8,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 24,
+    "altura_cm": 3,
+    "tipo": "desmontable"
+  },
+  "escalado": {
+    "tipo": "diametro",
+    "base_cm": 24,
+    "regla": "area",
+    "altura_fija": true
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-quebrada-dulce-06",
+      "nombre": "Masa Quebrada Dulce (Pâte Sucrée)",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "manteca", "cantidad_g": 125, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevo", "cantidad_g": 50, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "yema de huevo", "cantidad_g": 20, "rol": "ligante", "notas": "1 unidad" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 2, "rol": "aromatizante", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Arenado",
+          "duracion_min": 5,
+          "temperatura_c": 18,
+          "tecnica": "sablage",
+          "descripcion": "Mezclar la harina tamizada con el azúcar impalpable y la sal. Agregar la manteca fría en cubos y trabajar con la punta de los dedos hasta obtener una textura arenosa.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Formación de la masa",
+          "duracion_min": 3,
+          "temperatura_c": 18,
+          "tecnica": "amasado suave",
+          "descripcion": "Agregar el huevo, la yema y la vainilla. Unir la masa rápidamente sin amasar en exceso. Formar un disco, envolver en film y llevar a frío por 1 hora.",
+          "ciencia_ref": "sol-gel"
+        },
+        {
+          "nombre": "Estirado y forrado",
+          "duracion_min": 10,
+          "temperatura_c": 18,
+          "tecnica": "laminado",
+          "descripcion": "Estirar la masa fría a 3 mm de grosor. Forrar el molde de 24 cm de diámetro. Pinchar la base con un tenedor y llevar a frío por 30 minutos más.",
+          "ciencia_ref": "sol-gel"
+        }
+      ]
+    },
+    {
+      "id": "relleno-coco-01",
+      "nombre": "Relleno de Coco",
+      "ingredientes": [
+        { "nombre": "leche de coco", "cantidad_g": 300, "rol": "agua", "notas": "" },
+        { "nombre": "crema de leche (35% M.G.)", "cantidad_g": 150, "rol": "grasa", "notas": "" },
+        { "nombre": "coco rallado", "cantidad_g": 150, "rol": "fruta seca", "notas": "sin azúcar" },
+        { "nombre": "azúcar", "cantidad_g": 120, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 100, "rol": "estructura", "notas": "2 unidades" },
+        { "nombre": "yemas de huevo", "cantidad_g": 40, "rol": "estructura", "notas": "2 unidades" },
+        { "nombre": "almidón de maíz", "cantidad_g": 30, "rol": "espesante", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aromatizante", "notas": "" },
+        { "nombre": "sal fina", "cantidad_g": 2, "rol": "sabor", "notas": "" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Infusión de coco",
+          "duracion_min": 5,
+          "temperatura_c": 90,
+          "tecnica": "infusión",
+          "descripcion": "Calentar la leche de coco junto con la crema de leche y el coco rallado en una cacerola hasta que comience a humear. Retirar del fuego y dejar infusionar por 10 minutos.",
+          "ciencia_ref": "extraccion"
+        },
+        {
+          "nombre": "Mezcla de yemas",
+          "duracion_min": 3,
+          "temperatura_c": 22,
+          "tecnica": "batido",
+          "descripcion": "En un bol, batir los huevos, las yemas y el azúcar hasta blanquear. Agregar el almidón de maíz tamizado y mezclar bien.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        },
+        {
+          "nombre": "Cocción de la crema",
+          "duracion_min": 10,
+          "temperatura_c": 85,
+          "tecnica": "cocción",
+          "descripcion": "Verter la infusión de coco caliente sobre la mezcla de yemas en forma de hilo, batiendo constantemente. Devolver la mezcla a la cacerola y cocinar a fuego medio, revolviendo con batidor, hasta que espese y alcance los 85°C. Es crucial no dejar de revolver para evitar que se formen grumos.",
+          "ciencia_ref": "gelatinizacion_almidon"
+        },
+        {
+          "nombre": "Enfriado",
+          "duracion_min": 120,
+          "temperatura_c": 4,
+          "tecnica": "reposo en frío",
+          "descripcion": "Cubrir la crema con film plástico a piel para evitar que se forme una costra y llevar a la heladera por al menos 2 horas hasta que esté bien fría y firme.",
+          "ciencia_ref": "cristalizacion"
+        }
+      ]
+    },
+    {
+      "id": "cobertura-coco-01",
+      "nombre": "Cobertura de Crema y Coco Tostado",
+      "ingredientes": [
+        { "nombre": "crema de leche (35% M.G.)", "cantidad_g": 200, "rol": "grasa", "notas": "bien fría" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 30, "rol": "endulzante", "notas": "" },
+        { "nombre": "coco rallado", "cantidad_g": 50, "rol": "fruta seca", "notas": "para tostar" }
+      ],
+      "etapas": [
+        {
+          "nombre": "Tostado del coco",
+          "duracion_min": 5,
+          "temperatura_c": 160,
+          "tecnica": "horneado",
+          "descripcion": "Extender el coco rallado en una placa y hornear a 160°C por 5-7 minutos, revolviendo cada 2 minutos, hasta que esté dorado uniformemente. Retirar y dejar enfriar.",
+          "ciencia_ref": "reaccion_maillard"
+        },
+        {
+          "nombre": "Batido de crema",
+          "duracion_min": 5,
+          "temperatura_c": 4,
+          "tecnica": "batido",
+          "descripcion": "Batir la crema de leche bien fría con el azúcar impalpable hasta que forme picos firmes. Reservar en frío hasta el momento de usar.",
+          "ciencia_ref": "aireado"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "nombre": "1. Preparación de la masa quebrada",
+      "sub_receta_id": "masa-quebrada-dulce-06",
+      "descripcion": "Elaborar la masa quebrada siguiendo la sub-receta. Es crucial trabajar con la manteca bien fría y no amasar en exceso para evitar el desarrollo de gluten, lo que resultaría en una masa elástica en lugar de quebradiza. Una vez formada, envolver en film y refrigerar por al menos 1 hora. Este reposo permite que la grasa se solidifique y que la masa se relaje.",
+      "ciencia_ref": "sol-gel"
+    },
+    {
+      "nombre": "2. Horneado en blanco de la masa",
+      "sub_receta_id": null,
+      "descripcion": "Precalentar el horno a 180°C. Forrar el molde con la masa estirada y pinchar la base. Cubrir la masa con papel de aluminio y rellenar con pesos (porotos secos o arroz). Hornear durante 15-20 minutos. Retirar los pesos y el papel y hornear 5-10 minutos más, hasta que la masa esté ligeramente dorada. Este proceso, llamado 'horneado en blanco', sella la masa y evita que se humedezca con el relleno. Dejar enfriar completamente.",
+      "ciencia_ref": "reaccion_maillard"
+    },
+    {
+      "nombre": "3. Preparación del relleno de coco",
+      "sub_receta_id": "relleno-coco-01",
+      "descripcion": "Preparar el relleno de coco según la sub-receta. Es fundamental cocinar a fuego medio y revolver constantemente para lograr una textura sedosa y evitar que se formen grumos. La infusión de coco con la crema de leche aporta un sabor intenso y una textura cremosa. Dejar enfriar por completo antes de usar.",
+      "ciencia_ref": "gelatinizacion_almidon"
+    },
+    {
+      "nombre": "4. Armado de la tarta",
+      "sub_receta_id": null,
+      "descripcion": "Una vez que la masa horneada y el relleno de coco estén completamente fríos, verter el relleno sobre la base de masa, distribuyéndolo de manera uniforme y alisando la superficie con una espátula. Llevar la tarta al frío por al menos 1 hora para que el relleno se asiente y firme.",
+      "ciencia_ref": "cristalizacion"
+    },
+    {
+      "nombre": "5. Decoración con crema y coco tostado",
+      "sub_receta_id": "cobertura-coco-01",
+      "descripcion": "Preparar la cobertura según la sub-receta. Colocar la crema batida en una manga con boquilla rizada y decorar la superficie de la tarta con rosetones o cubrir toda la superficie con una espátula. Espolvorear el coco tostado por encima. Llevar a la heladera hasta el momento de servir.",
+      "ciencia_ref": "aireado"
+    },
+    {
+      "nombre": "6. Refrigerado y servicio",
+      "duracion_min": 60,
+      "temperatura_c": 4,
+      "tecnica": "reposo en frío",
+      "descripcion": "Llevar la tarta a la heladera por al menos 1 hora antes de servir para que todos los sabores se integren y la crema esté bien firme. Desmoldar con cuidado y servir fría. Esta tarta es mejor consumirla el mismo día de su preparación o dentro de las 24-48 horas.",
+      "ciencia_ref": "cristalizacion"
+    }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "El relleno de coco espesa gracias a la gelatinización del almidón de maíz. Al calentar la mezcla, los gránulos de almidón absorben el líquido, se hinchan y se rompen, liberando amilosa y amilopectina que forman una red tridimensional que atrapa el agua, espesando la crema. Los huevos aportan proteínas que también contribuyen a la estructura y cremosidad.",
+      "punto_critico": "La temperatura de cocción (85°C) y el batido constante. Si no se cocina lo suficiente, la crema queda líquida y sabe a almidón crudo. Si se cocina de más o no se revuelve, los grumos aparecen.",
+      "error_tipico": "No cocinar la crema lo suficiente o no revolver constantemente. Esto resulta en una crema grumosa o líquida.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Gelatinización del almidón)."
+    },
+    {
+      "fenomeno": "extraccion",
+      "explicacion": "La infusión de la leche de coco con el coco rallado permite extraer los compuestos aromáticos y los sabores del coco, que se incorporan a la crema. Este proceso es similar a la preparación de una infusión de té o café.",
+      "punto_critico": "La temperatura del líquido (90°C) y el tiempo de infusión (10 minutos). Si el líquido está muy caliente, puede extraer sabores amargos; si está muy frío, no extrae suficiente sabor.",
+      "error_tipico": "Hervir la leche de coco, lo que puede provocar que se separe la grasa y se pierda la textura cremosa.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Extracción de sabores."
+    },
+    {
+      "fenomeno": "aireado",
+      "explicacion": "La crema batida se forma al batir la crema de leche, lo que incorpora aire en forma de burbujas. La grasa de la crema se solidifica alrededor de las burbujas de aire, estabilizando la espuma. El azúcar impalpable ayuda a estabilizar la crema y le aporta dulzor.",
+      "punto_critico": "La temperatura de la crema (debe estar bien fría) y la velocidad de batido. Si la crema está caliente, no se monta. Si se bate en exceso, se corta y se convierte en manteca.",
+      "error_tipico": "Batir la crema a temperatura ambiente o en exceso, lo que resulta en una crema líquida o cortada.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Lípidos."
+    },
+    {
+      "fenomeno": "sol-gel",
+      "explicacion": "La masa quebrada se mantiene crujiente gracias a la grasa que recubre las proteínas de la harina, impidiendo el desarrollo de gluten. El horneado en blanco sella la masa, creando una barrera que evita que la humedad del relleno la ablande.",
+      "punto_critico": "El horneado en blanco debe ser completo. Si la masa no está bien cocida y sellada, el relleno la humedecerá y la tarta quedará blanda.",
+      "error_tipico": "No hornear en blanco la masa o hacerlo por un tiempo insuficiente. La masa quedará cruda y blanda en el fondo.",
+      "referencia": "Koppmann, M. (2010). Manual de Química Culinaria. Cap. Proteínas y Lípidos."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "Al tostar el coco rallado, los azúcares y proteínas del coco reaccionan a altas temperaturas, creando compuestos que dan el color dorado y el aroma característico del coco tostado.",
+      "punto_critico": "La temperatura del horno (160°C) y el tiempo de tostado (5-7 minutos). Si la temperatura es muy alta, el coco se quema; si es muy baja, no se tuesta.",
+      "error_tipico": "No tostar el coco lo suficiente, lo que resulta en un sabor plano, o tostarlo en exceso, lo que lo amarga.",
+      "referencia": "Badui Dergal, S. (2006). Química de los Alimentos. Cap. 2: Hidratos de carbono (Reacciones de oscurecimiento)."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de cofia y guantes para el armado",
+    "Utensilios limpios y desinfectados",
+    "Temperatura de frío controlada (< 5°C) para la masa y la crema"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos (contiene gluten, huevo, lácteos, coco)",
+    "Fecha de elaboración y vencimiento",
+    "Conservar en frío (4°C) por ser una tarta con crema y coco",
+    "Consumir preferentemente dentro de las 48 horas"
+  ],
+  "rendimiento": {
+    "unidades": 8,
+    "peso_pieza_g": 140,
+    "peso_total_g": 1120
+  },
+  "referencias": [
+    { "libro": "Gross, O. (2013). El ABC de la Pastelería. Planeta.", "capitulo": "Tartas", "pagina": 130 },
+    { "libro": "Koppmann, M. (2010). Manual de Química Culinaria. IAG.", "capitulo": "Lípidos y Proteínas", "pagina": 60 },
+    { "libro": "Badui Dergal, S. (2006). Química de los Alimentos. Pearson.", "capitulo": "Hidratos de carbono", "pagina": 90 }
+  ],
+  "activa": true
+}
+]
